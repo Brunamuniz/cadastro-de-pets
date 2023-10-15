@@ -1,0 +1,36 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boas-Vindas ao PET</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href= "CSS/Salinha.css">
+</head>
+<header>
+    <header class="header">
+        <nav class="menu">
+             <div class="mobile-menu">
+                 <div class="linha1"></div>
+             </div>
+            <ul class="cabeçalho">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+</header>
+<body onload="carregarPet()">
+    <main class="lista">
+        <div class="container">
+            <h1>Conheça os PETs</h1>
+            <div class="pets">
+                <img src="/Imagens/pet.imagem-removebg-preview.png" alt="imagem de pet" class="image">
+                <div class="informação">
+                    <h2>Lista de PETs na salinha</h2>   
+                    <ul id="resultado"></ul>             
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+</html>

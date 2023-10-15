@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-shadow:2px 2px 4px #000000a1;
+}
+
+body{
+    background-image: url(/Imagens/pexels-marián-šicko-4214919.jpg);
+    background-size: cover;  
+    background-repeat: no-repeat;   
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 0 20px;
+    box-shadow: 0 5px 10px #00000070;
+   
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 20px;
+    gap: 30px;
+}
+
+.menu a {
+    font-size: 1.5rem;
+    color: #f67f00;
+    font-weight: sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #f67f00;
+}
+
+.menu a:hover {
+    transition: 0.1s ease-in;
+    color: #1e1e1edd;
+}
+
+.container {
+   background-color: #ffffffdd; 
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    height: 400px   ;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.cadastroLista {
+    font-size: 1.2em; 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+
+h1 {
+    text-align: center;
+    color: #f67f00;;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #f67f00;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    width: 50%;
+    margin-top: 50px;
+    display: block;
+}
+
+button:hover{
+    background-color: #FFFFFFFF;
+    color: #FFFFFFFF;
+}
+
+#nomePet, #idadePet {
+    border: 1.5px solid #f67f00;
+    border-radius: 3px ;
+    color: #000000;
+    padding: 10px;
+    width: 100%;
+    margin-top: 3px;
+    background-color: #FFFFFF; 
+}

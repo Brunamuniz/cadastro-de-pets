@@ -1,0 +1,126 @@
+
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em; 
+    font-family: sans-serif;
+    background-color: #f67f00;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    opacity: 0.9;
+    border-radius: 5px;
+    padding: 0 20px;
+    box-shadow: 0 5px 10px #00000070;
+   
+}
+
+.menu a {
+    font-size: 1.5rem;
+    color: #f67f00;
+    font-weight: sans-serif;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #f67f00;
+}
+
+.menu a:hover {
+    transition: 0.1s ease-in;
+    color: #1e1e1edd;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    background-color: #ffffffdd; 
+    padding: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px #ffffff;
+}
+
+.lista {
+    font-size: 1.2em; 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px #000000a1;
+}
+
+.container img {
+    width: 200px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.informação {
+    color: #f67f00;
+    text-shadow: 2px 2px 4px #000000a1;
+}
+
+.cabeçalho {
+    display: flex;
+    letter-spacing: 3px;
+    gap: 3em;
+    margin-right: 32px;
+}
+
+h1 {
+    text-align: center;
+    color: #f67f00;;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #f67f00;
+    margin: 0 auto;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+    width: 50%;
+    margin-top: 50px;
+    display: block;
+}
+
+button:hover{
+    background-color: rgb(255, 0, 0);
+    color: #FFFFFFFF;
+}
